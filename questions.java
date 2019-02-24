@@ -18,11 +18,11 @@ public class questions {
 
     System.out.println("合計点数は"+total+"なので.....");
 
-    if(total < 1){
+    if(total < 3){
         System.out.println("出直せ〜！");
-    }else if(total < 5){
+    }else if(total < 6){
         System.out.println("ふ〜ん");
-    }else if(total < 10){
+    }else if(total < 9){
         System.out.println("おおお");
     }else{
         System.out.println("やるやん！");
