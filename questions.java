@@ -5,8 +5,10 @@ public class questions {
     public static void main(String[] args) {
         int total = 0;
         for (int i = 0; i < 4; i++){
-            String[] questions= {"a", "b", "c", "d"};
+            String[] questions= {"東京好き？", "PHP好き？", "laravel好き？", "Vue.js好き？"};
             System.out.println(questions[i]);
+            System.out.println("該当する数値を入力してください");
+            System.out.println("1:いまいち, 2:うーん, 3:そこそこ, 4:いいね！");
 
             Scanner points = new Scanner(System.in);
             int number = points.nextInt();
@@ -17,13 +19,13 @@ public class questions {
     System.out.println("合計点数は"+total+"なので.....");
 
     if(total < 1){
-        System.out.println("Sun");
+        System.out.println("出直せ〜！");
     }else if(total < 5){
-        System.out.println("of");
+        System.out.println("ふ〜ん");
     }else if(total < 10){
-        System.out.println("a");
+        System.out.println("おおお");
     }else{
-        System.out.println("bitch");
+        System.out.println("やるやん！");
     }
     }
 }
